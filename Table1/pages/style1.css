@@ -1,0 +1,97 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+nav {
+    padding: 0px 10px;
+    background: lightblue;
+    font-family: sans-serif;
+}
+ul {
+    display: flex; 
+}
+li {
+    padding: 20px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.about-container{
+
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+
+}
+.content{
+    width: 60%;
+    height: 100%;
+}
+.about-box{
+    background: rgb(233, 225, 152);
+    font-size: 80px;
+    text-align: center;
+    padding: 15% 0%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.side-box{
+    width: 38%;
+    height: 100%;
+}
+.card{
+    height: 25%;
+    padding: 5%;
+    margin: 2%;
+    background: rgb(233, 225, 152);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+h1{
+    margin-top: 20px;
+}
+
+.active {
+    background-color: #f5f265; /* Active link color */
+    font-weight: bold; /* Optional: make it bold */
+}
+
+/* Service page style  */
+
+
+.table-container{
+    width: 60%;
+    padding: 0% 20%;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.service{
+    text-align: center;
+}
+th{
+    padding: 10px 0px;
+}
+td {
+    padding: 10px 0px;
+    text-align: center;
+    border: 1px solid;
+}
+.color-1{
+    background-color: rgb(250, 245, 198);
+}
+.color-2{
+    background-color: rgb(235, 223, 123);
+}
+.color-3{
+    background-color: rgb(243, 226, 77);
+}
+.color-4{
+    background-color: rgb(228, 206, 13);
+}
